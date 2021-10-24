@@ -1,0 +1,54 @@
+.section-line {
+  width: 170px;
+  height: 1px;
+  margin: auto;
+  background: #ec7979;
+  margin: 0 auto 41.5px;
+}
+.section-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #86878b;
+  margin: 0 auto 111.5px;
+}
+.about {
+  display: flex;
+}
+.about-item {
+  flex: 33.333%;
+}
+.item-img {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  border: 1px solid #ec7979;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin: 0 auto 77px;
+}
+
+.item-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+  margin: 0 auto 48.5px;
+}
+.item-text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
