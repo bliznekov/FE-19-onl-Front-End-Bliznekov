@@ -1,11 +1,16 @@
-.section-line {
+.awesome {
+  max-width: 1170px;
+  margin: auto;
+  padding: 57px 0 50px;
+}
+.awesome-line {
   width: 170px;
   height: 1px;
   margin: auto;
   background: #ec7979;
   margin: 0 auto 41.5px;
 }
-.section-title {
+.awesome-title {
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
