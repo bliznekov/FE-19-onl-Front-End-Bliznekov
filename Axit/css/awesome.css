@@ -1,0 +1,45 @@
+.awesome {
+  max-width: 1400px;
+  margin: auto;
+  padding: 80px 0 116px;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-item {
+  width: 350px;
+}
+.item-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #e72424;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin: 0 auto 30px;
+}
+
+.item-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+  margin: 0 auto 16px;
+}
+.item-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
