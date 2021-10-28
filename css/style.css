@@ -8,7 +8,6 @@ html {
 
 * {
   margin: 0;
-  padding: 0 15px;
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
@@ -41,4 +40,9 @@ html {
   text-align: center;
   color: #86878b;
   margin: 0 auto 68px;
+}
+.section {
+  max-width: 1170px;
+  padding: 0px -15px;
+  margin: auto;
 }
