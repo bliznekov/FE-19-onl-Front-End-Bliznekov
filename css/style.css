@@ -1,5 +1,7 @@
 @import url("../css/awesome.css");
 @import url("../css/price.css");
+@import url("../css/customers.css");
+@import url("../css/stylish.css");
 html {
   font-family: "Open Sans", sans-serif;
   font-family: "Raleway", sans-serif;
@@ -21,8 +23,18 @@ html {
   line-height: 42px;
   text-align: center;
   color: #000000;
-  margin: 0 0 34px;
   text-transform: uppercase;
+  margin-bottom: 70px;
+}
+.section-title::after {
+  content: "";
+  width: 64px;
+  height: 2px;
+  background-color: #e72424;
+  display: block;
+  margin: auto;
+  position: relative;
+  bottom: -34px;
 }
 .section-line {
   width: 64px;
