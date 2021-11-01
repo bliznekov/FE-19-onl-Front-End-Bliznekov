@@ -2,12 +2,13 @@
   padding: 80px 0 119px;
 }
 .comments {
-  margin: 0 15px;
+  margin: 0 -15px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .comments-person {
+  margin: 0 15px;
 }
 .comments-text {
   width: 298px;
