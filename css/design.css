@@ -26,8 +26,6 @@
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 70px;
-  position: relative;
-  z-index: 2;
 }
 .design-title:after {
   content: "";
@@ -36,9 +34,8 @@
   background-color: #ffffff;
   display: block;
   margin: auto;
-  position: relative;
+
   bottom: -34px;
-  z-index: 2;
 }
 .design-subtitle {
   font-family: Raleway;
@@ -50,8 +47,6 @@
   text-align: center;
   color: #ffffff;
   margin-bottom: 57px;
-  position: relative;
-  z-index: 2;
 }
 .design-link {
   border: 1px solid #ffffff;
@@ -66,6 +61,22 @@
   width: 135px;
   display: block;
   margin: auto;
-  position: relative;
-  z-index: 2;
+  animation-name: design-link;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.design-link:hover {
+  animation-play-state: paused;
+}
+
+@keyframes design-link {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
 }

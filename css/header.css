@@ -1,0 +1,57 @@
+header {
+  background-color: rgb(0, 0, 0);
+  padding: 20px 0;
+}
+.header-container {
+  margin: auto;
+  max-width: 1170px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.header-logo {
+  display: flex;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+.header-logo::after {
+  content: "It";
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: rgb(236, 121, 121);
+}
+.header-nav {
+  width: 489px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 5px 15px;
+  padding-inline-start: 0px;
+}
+.nav-link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0 3px 3px 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+.nav-link:hover {
+  border-bottom: 3px solid rgb(231, 36, 36);
+  border-left: 3px solid rgb(231, 36, 36);
+  margin: 0;
+  transition: 0.3s;
+}

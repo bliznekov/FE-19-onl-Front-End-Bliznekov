@@ -15,7 +15,7 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  border: 1px solid #e72424;
+  border: 1px solid rgb(231, 36, 36);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,4 +41,8 @@
   line-height: 19px;
   text-align: center;
   color: #000000;
+}
+.item-img {
+  color: rgb(231, 36, 36);
+  font-size: 30px;
 }

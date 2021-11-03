@@ -29,10 +29,11 @@
   position: absolute;
   width: 0;
   height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #e2e2e2;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid #e2e2e2;
   left: 41px;
+  top: 100%;
 }
 .comments-person-about {
   display: flex;
@@ -44,10 +45,12 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .comments-person-about__photo img {
   height: 100%;
-  display: block;
 }
 .comments-person-name {
 }

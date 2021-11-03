@@ -1,0 +1,28 @@
+footer {
+  background-color: rgb(0, 0, 0);
+}
+.footer {
+  max-width: 1170px;
+  margin: auto;
+  padding: 30px 0 15px;
+}
+.footer-logo {
+  display: flex;
+  margin: auto;
+  width: 317px;
+  justify-content: space-between;
+  padding-inline-start: 0px;
+}
+.logo-item {
+  font-size: 23px;
+  margin-bottom: 18px;
+}
+.footer-creator {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
