@@ -39,6 +39,7 @@
   font-size: 42px;
   text-decoration: none;
   color: rgb(134, 135, 139);
+  transition: 0.6s;
 }
 .fa-facebook:hover {
   color: rgb(59, 89, 152);
@@ -58,6 +59,16 @@
 }
 .fa-instagram-square:hover {
   color: rgb(193, 53, 132);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   transition: 0.6s;
 }
 .fa-stumbleupon-circle:hover {

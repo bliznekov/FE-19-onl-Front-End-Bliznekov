@@ -45,4 +45,8 @@
 .item-img {
   color: rgb(231, 36, 36);
   font-size: 30px;
+  transition: 0.3s;
+}
+.item-img:hover {
+  transform: scale(1.1);
 }

@@ -34,7 +34,7 @@
   background-color: #ffffff;
   display: block;
   margin: auto;
-
+  position: relative;
   bottom: -34px;
 }
 .design-subtitle {
