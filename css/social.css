@@ -6,9 +6,10 @@
   max-width: 1170px;
   margin: auto;
   display: flex;
-  padding: 14px 0 17px;
+  padding: 14px 15px 17px;
 }
-.social-item1 {
+.social-left {
+  min-width: 365px;
 }
 .social-title {
   font-family: Open Sans;
@@ -28,7 +29,7 @@
   align-items: center;
   color: rgb(134, 135, 139);
 }
-.social-item2 {
+.social-right {
   width: 684px;
   display: flex;
   justify-content: space-between;

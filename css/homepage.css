@@ -1,0 +1,174 @@
+.homepage {
+  background-image: url("../img/bg/background-homepage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 110px 0 100px;
+}
+.homepage-left {
+  margin-right: 15px;
+}
+.homepage-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.homepage-logo {
+  font-family: Raleway;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  margin-bottom: 46px;
+}
+.homepage-logo::after {
+  content: "It";
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: rgb(236, 121, 121);
+  margin-left: -10px;
+}
+.homepage-title {
+  width: 544px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  line-height: 42px;
+  margin-bottom: 77px;
+}
+.homepage-subtitle {
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 39px;
+}
+.homepage-title::after {
+  content: "";
+  width: 64px;
+  height: 1px;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  bottom: -38px;
+}
+.homepage-form {
+  margin-left: 15px;
+}
+.form-data {
+  min-width: 370px;
+  height: 316px;
+  border-radius: 10px 10px 0 0;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+.homepage-form-titel {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 56px;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  margin-bottom: 44px;
+}
+.homepage-form-titel span {
+  text-transform: uppercase;
+  color: rgb(236, 121, 121);
+}
+.homepage-form-item {
+  margin-bottom: 19px;
+}
+.homepage-form__button {
+  width: 100%;
+  background-color: rgb(236, 121, 121);
+  border: none;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  height: 54px;
+  padding: 0;
+  cursor: pointer;
+}
+.homepage-form__label {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(189, 189, 189);
+  display: block;
+  margin: 0 0 0 56px;
+}
+.homepage-form__input {
+  display: block;
+  margin: 0 56px;
+  width: 252px;
+  border: none;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  padding: 5px 5px;
+  outline: none;
+}
+.homepage-form__input:focus {
+  border-bottom: 1px solid rgb(236, 121, 121);
+}
+.homepage-link {
+  border: 1px solid #ffffff;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  width: 135px;
+  display: block;
+  animation-name: homepage-link;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.homepage-link:hover {
+  animation-play-state: paused;
+  background-color: rgb(236, 121, 121);
+}
+
+@keyframes homepage-link {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}

@@ -1,9 +1,11 @@
 @import url("../css/header.css");
+@import url("../css/homepage.css");
 @import url("../css/social.css");
 @import url("../css/awesome.css");
 @import url("../css/price.css");
 @import url("../css/customers.css");
 @import url("../css/design.css");
+@import url("../css/contact.css");
 @import url("../css/footer.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 html {
@@ -62,6 +64,7 @@ html {
   margin: auto;
   position: relative;
   z-index: 1;
+  padding: 0 15px;
 }
 .social-logo a {
   color: rgb(134, 135, 139) !important;
@@ -69,4 +72,13 @@ html {
 }
 .logo-item a {
   color: rgb(134, 135, 139) !important;
+}
+h2 {
+  display: block;
+  font-size: 36px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: normal;
 }

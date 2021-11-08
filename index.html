@@ -15,36 +15,98 @@
   </head>
   <body>
     <header>
-      <div class="header-container">
-        <section class="header">
-          <div class="header-logo">
+      <section class="header">
+        <div class="header-logo">
+          <span>Ax</span>
+        </div>
+        <nav>
+          <ul class="header-nav">
+            <li>
+              <a href="#" class="nav-link nav-link__first">Feautures</a>
+            </li>
+            <li>
+              <a href="#awesome" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="#price" class="nav-link">Pricing</a>
+            </li>
+            <li>
+              <a href="#customers" class="nav-link">Reviews</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <section class="homepage" id="homepage">
+      <div class="section homepage-section">
+        <div class="homepage-left">
+          <div class="homepage-logo">
             <span>Ax</span>
           </div>
-          <nav>
-            <ul class="header-nav">
-              <li>
-                <a href="#" class="nav-link">Feautures</a>
-              </li>
-              <li>
-                <a href="#" class="nav-link">About</a>
-              </li>
-              <li>
-                <a href="#" class="nav-link">Pricing</a>
-              </li>
-              <li>
-                <a href="#" class="nav-link">Reviews</a>
-              </li>
-              <li>
-                <a href="#" class="nav-link">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </section>
+          <div class="homepage-title">
+            <h2>Modern axure template for beautiful prototypes</h2>
+          </div>
+          <div class="homepage-subtitle">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            </p>
+          </div>
+          <div class="homepage-link__download">
+            <a href="#" class="homepage-link">Download</a>
+          </div>
+        </div>
+        <form action="" class="homepage-form" name="homepage">
+          <div class="form-data">
+            <h3 class="homepage-form-titel">
+              Try Your <span>free</span> Trial Today
+            </h3>
+            <div class="homepage-form-item">
+              <label for="homepage-name" class="homepage-form__label"
+                >Name</label
+              >
+              <input
+                type="text"
+                name="homepage-name"
+                id="homepage-name"
+                maxlength="15"
+                class="homepage-form__input"
+              />
+            </div>
+            <div class="homepage-form-item">
+              <label for="homepage-email" class="homepage-form__label"
+                >Email</label
+              >
+              <input
+                type="homepage-email"
+                name="homepage-email"
+                id="homepage-email"
+                class="homepage-form__input"
+              />
+            </div>
+            <div class="homepage-form-item">
+              <label for="password" class="homepage-form__label"
+                >Password</label
+              >
+              <input
+                type="homepage-password"
+                name="homepage-password"
+                id="homepage-password"
+                class="homepage-form__input"
+              />
+            </div>
+          </div>
+          <button type="submit" class="homepage-form__button">
+            Send Message
+          </button>
+        </form>
       </div>
-    </header>
+    </section>
     <section class="social">
       <div class="section-social">
-        <div class="social-item1">
+        <div class="social-left">
           <h2 class="social-title">Social Media</h2>
           <div class="social-subtitle">
             <span>
@@ -53,7 +115,7 @@
             </span>
           </div>
         </div>
-        <ul class="social-item2">
+        <ul class="social-right">
           <li class="social-logo">
             <a href="https://www.facebook.com/">
               <i class="fab fa-facebook"></i
@@ -91,7 +153,7 @@
       </div>
     </section>
     <main>
-      <section class="awesome">
+      <section class="awesome" id="awesome">
         <div class="section">
           <h2 class="section-title">Why this is awesome</h2>
           <div class="section-subtitle">
@@ -140,7 +202,7 @@
           </div>
         </div>
       </section>
-      <section class="price">
+      <section class="price" id="price">
         <div class="section">
           <h2 class="section-title">Pricing Options</h2>
           <div class="section-subtitle">
@@ -183,7 +245,7 @@
           </div>
         </div>
       </section>
-      <section class="customers">
+      <section class="customers" id="customers">
         <div class="section">
           <h2 class="section-title">What our customers are saying</h2>
           <div class="section-subtitle">
@@ -272,6 +334,56 @@
             <a href="#" class="design-link">Download</a>
           </div>
         </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="section">
+          <h2 class="section-title">Contact us</h2>
+          <div class="section-subtitle">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <form action="" class="contact-form">
+          <div class="contact-form-left">
+            <div class="form-item">
+              <label for="name" class="form-item__label">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                maxlength="15"
+                class="form-item__input"
+              />
+            </div>
+            <div class="form-item">
+              <label for="email" class="form-item__label">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-item__input"
+              />
+            </div>
+            <div class="form-item">
+              <label for="password" class="form-item__label">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="form-item__input"
+              />
+            </div>
+          </div>
+          <div class="contact-form-right">
+            <label for="massege" class="form-item__label">Massege</label>
+            <textarea
+              name="massege"
+              id="massege"
+              maxlength="450"
+              class="form-item__textarea"
+            ></textarea>
+          </div>
+        </form>
+        <button type="submit" class="form-item__buttom">Send Message</button>
       </section>
     </main>
     <footer>

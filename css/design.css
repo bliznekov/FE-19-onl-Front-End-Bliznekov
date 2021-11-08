@@ -65,11 +65,12 @@
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animatios-direction: alternate;
+  animation-direction: alternate;
 }
 
 .design-link:hover {
   animation-play-state: paused;
+  background-color: rgb(236, 121, 121);
 }
 
 @keyframes design-link {
