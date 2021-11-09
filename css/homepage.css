@@ -134,7 +134,7 @@
   font-style: normal;
   font-weight: 600;
   color: rgb(0, 0, 0);
-  padding: 5px 5px;
+  padding: 0 5px;
   outline: none;
 }
 .homepage-form__input:focus {
