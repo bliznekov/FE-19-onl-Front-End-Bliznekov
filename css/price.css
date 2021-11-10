@@ -12,14 +12,14 @@
   padding-inline-start: 0px;
 }
 .price-list-item {
-  min-width: 340px;
+  width: 340px;
   background: #ffffff;
   margin: 0 15px 4px;
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 2.5rem;
   text-align: center;
   background: #ffffff;
   color: #86878b;
@@ -30,10 +30,10 @@
   background: rgb(51, 51, 51);
   margin: 0 15px 1px;
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 3.125rem;
   text-align: center;
   color: rgb(255, 255, 255);
 }
@@ -42,22 +42,22 @@
   height: 100px;
   margin: 0 15px 2px;
   font-family: Raleway;
-  font-size: 35px;
+  font-size: 2.1875rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 100px;
+  line-height: 6.25rem;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 .price-list-item:nth-child(3) {
   background: #333333;
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 3.125rem;
   text-align: center;
-  color: #ffffff80;
+  color: rgba(255, 255, 255, 0.502);
 }
 .price-list-item:last-child {
   margin: 0 15px 0px;

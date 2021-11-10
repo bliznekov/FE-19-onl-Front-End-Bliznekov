@@ -11,7 +11,7 @@
 .form-item__label {
   display: block;
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0em;
@@ -19,8 +19,7 @@
 }
 .contact-form-left {
   width: 40%;
-  min-width: 150px;
-  margin-right: 105px;
+  min-width: 200px;
   margin-bottom: 68px;
 }
 .form-item {
@@ -31,8 +30,7 @@
 }
 .contact-form-right {
   width: 40%;
-  min-width: 150px;
-  margin-left: 105px;
+  min-width: 200px;
   justify-content: space-between;
 }
 .form-item__input {
@@ -42,23 +40,23 @@
   border: none;
   border-bottom: 1px solid rgb(189, 189, 189);
   font-family: Open Sans;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-style: normal;
   font-weight: 600;
   color: rgb(0, 0, 0);
-  padding: 5px 5px;
+  padding: 0.3125rem 0.3125rem;
   outline: none;
 }
 .form-item__input:focus {
   border-bottom: 1px solid rgb(236, 121, 121);
 }
 .form-item__buttom {
-  width: 166px;
-  height: 42px;
+  width: 10.375rem;
+  height: 2.625rem;
   background-color: rgb(236, 121, 121);
   border: none;
   font-family: Open Sans;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-style: normal;
   font-weight: 600;
   color: rgb(255, 255, 255);
@@ -74,12 +72,12 @@
   border-bottom: 1px solid rgb(189, 189, 189);
   resize: none;
   font-family: Open Sans;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-style: normal;
   font-weight: 600;
   color: rgb(0, 0, 0);
   padding: 5px 5px;
-  height: 200px;
+  height: 12.5rem;
   outline: none;
 }
 .form-item__textarea:focus {

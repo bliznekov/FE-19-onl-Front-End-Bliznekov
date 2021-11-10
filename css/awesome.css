@@ -12,8 +12,8 @@
   margin: 0 15px;
 }
 .item-img {
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   border-radius: 50%;
   border: 1px solid rgb(231, 36, 36);
   display: flex;
@@ -27,8 +27,8 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 33px;
+  font-size: 1.25rem;
+  line-height: 2.0625rem;
   text-align: center;
   color: #000000;
   margin: 0 auto 16px;
@@ -37,14 +37,14 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
   text-align: center;
   color: #000000;
 }
 .item-img {
   color: rgb(231, 36, 36);
-  font-size: 30px;
+  font-size: 1.875rem;
   transition: 0.3s;
 }
 .item-img:hover {

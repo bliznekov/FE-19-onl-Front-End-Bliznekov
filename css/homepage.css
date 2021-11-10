@@ -5,6 +5,7 @@
   background-size: cover;
   position: relative;
   padding: 110px 0 100px;
+  height: 100vh;
 }
 .homepage:after {
   width: 100%;
@@ -25,7 +26,7 @@
 }
 .homepage-logo {
   font-family: Raleway;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0em;
@@ -37,7 +38,7 @@
   content: "It";
   text-transform: uppercase;
   font-family: Roboto;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0em;
@@ -49,20 +50,20 @@
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   font-family: Raleway;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0em;
   text-align: left;
-  line-height: 42px;
+  line-height: 2.625rem;
   margin-bottom: 77px;
 }
 .homepage-subtitle {
   font-family: Raleway;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 300;
-  line-height: 19px;
+  line-height: 1.1875rem;
   letter-spacing: 0em;
   text-align: left;
   color: rgba(255, 255, 255, 0.8);
@@ -79,9 +80,10 @@
 }
 .homepage-form {
   margin-left: 15px;
+  width: 370px;
 }
 .form-data {
-  min-width: 370px;
+  width: 370px;
   border-radius: 10px 10px 0 0;
   background-color: rgb(255, 255, 255);
   position: relative;
@@ -91,8 +93,8 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 56px;
+  font-size: 1.25rem;
+  line-height: 3.5rem;
   color: rgb(51, 51, 51);
   text-align: center;
   margin-bottom: 44px;
@@ -109,7 +111,7 @@
   background-color: rgb(236, 121, 121);
   border: none;
   font-family: Open Sans;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-style: normal;
   font-weight: 600;
   color: rgb(255, 255, 255);
@@ -122,10 +124,10 @@
 }
 .homepage-form__label {
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 1.1875rem;
   letter-spacing: 0em;
   text-align: left;
   color: rgb(189, 189, 189);
@@ -137,7 +139,7 @@
   border: none;
   border-bottom: 1px solid rgb(189, 189, 189);
   font-family: Open Sans;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-style: normal;
   font-weight: 600;
   color: rgb(0, 0, 0);
@@ -150,14 +152,14 @@
 .homepage-link {
   border: 1px solid #ffffff;
   font-family: Open Sans;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 42px;
+  line-height: 2.625rem;
   letter-spacing: 0em;
   text-align: center;
   color: #ffffff;
-  width: 135px;
+  width: 8.4375rem;
   display: block;
   animation-name: homepage-link;
   animation-duration: 1s;
