@@ -23,7 +23,6 @@
   text-align: center;
   background: #ffffff;
   color: #86878b;
-  margin: 0 15px 4px;
   transition: 0.5s;
 }
 .price-list-item:first-child {
@@ -39,7 +38,7 @@
 }
 .price-list-item:nth-child(2) {
   background: rgb(51, 51, 51);
-  height: 100px;
+  height: 6.25rem;
   margin: 0 15px 2px;
   font-family: Raleway;
   font-size: 2.1875rem;

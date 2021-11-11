@@ -36,7 +36,7 @@ html {
 .section-title::after {
   content: "";
   width: 64px;
-  height: 2px;
+  height: 0.125rem;
   background-color: #e72424;
   display: block;
   margin: auto;
@@ -395,5 +395,11 @@ i {
   }
   .feautures-left-item {
     margin: 0 5px;
+  }
+  .feautures-center {
+    width: 90%;
+  }
+  .feautures {
+    margin: 0;
   }
 }

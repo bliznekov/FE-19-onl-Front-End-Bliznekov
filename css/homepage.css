@@ -72,7 +72,7 @@
 .homepage-title::after {
   content: "";
   width: 64px;
-  height: 1px;
+  height: 0.125rem;
   display: block;
   background-color: rgb(255, 255, 255);
   position: relative;
